@@ -17,7 +17,7 @@ class Env(SyncEnv):
 
     TEST = "test"
     VALUE = None
-    NONE: str = None
+    NONE = None
 
 env = Env()
 ```
