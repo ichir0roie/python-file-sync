@@ -25,8 +25,7 @@ env = Env()
 ## any file
 
 
-```
-python
+```python
 
 from any.file import env
 
