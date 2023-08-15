@@ -1,1 +1,1 @@
-from file_sync_ichir0roie.sync_env import SyncEnv
+from sync_env.sync_env import SyncEnv

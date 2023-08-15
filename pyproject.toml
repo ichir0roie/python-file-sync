@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "sync_env_ichir0roie"
+name = "sync_env"
 version = "0.0.2"
 authors = [
   { name="ichir0roioe", email="ichir0roie@gmail.com" },
@@ -17,5 +17,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/ichir0roie/python-file-sync"
-"Bug Tracker" = "https://github.com/ichir0roie/python-file-sync/issues"
+"Homepage" = "https://github.com/ichir0roie/python-sync-env"
+"Bug Tracker" = "https://github.com/ichir0roie/python-sync-env/issues"
