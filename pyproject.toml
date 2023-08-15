@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sync_env"
-version = "0.0.3"
+version = "1.0.0"
 authors = [
   { name="ichir0roioe", email="ichir0roie@gmail.com" },
 ]

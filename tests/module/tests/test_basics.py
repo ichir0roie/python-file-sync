@@ -16,7 +16,7 @@ class Env(SyncEnv):
 env = Env()
 
 
-def test_(env: Env):
+def test_():
     assert env.TEST == "test"
     assert env.VALUE == None
     assert env.NONE == "のん"
