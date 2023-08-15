@@ -1,4 +1,4 @@
-# python-file-sync
+# python-sync-env
 easy load environment methods for python
 
 # basic
