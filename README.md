@@ -1,7 +1,7 @@
 # python-sync-env
 easy load environment methods for python
 
-# basic
+# basic usage
 
 ## environment
 
@@ -20,6 +20,18 @@ class Env(SyncEnv):
     NONE: str = None
 
 env = Env()
+```
+
+## any file
+
+
+```
+python
+
+from any.file import env
+
+assert env.NONE == "なん"
+
 ```
 
 ## output
