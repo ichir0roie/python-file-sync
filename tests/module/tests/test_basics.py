@@ -13,10 +13,7 @@ class Env(SyncEnv):
     NONE: str = None
 
 
-@pytest.fixture
-def env():
-    env = Env()
-    return env
+env = Env()
 
 
 def test_(env: Env):
@@ -26,4 +23,6 @@ def test_(env: Env):
 
 
 if __name__ == "__main__":
-    print(Env().__dict__)
+    print(env.TEST)
+    print(env.VALUE)
+    print(env.NONE)
