@@ -1,7 +1,7 @@
 import os
 
 
-class SyncEnvFile:
+class SyncEnv:
 
     def __init__(self) -> None:
         for key in dir(self):
