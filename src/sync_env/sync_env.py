@@ -17,6 +17,9 @@ class SyncEnv:
             setattr(self, key, env_value if env_value else value)
         # self.__generate_env(not_exist_env_list)
 
+    def _generate(self):
+        GenerateEnv([self.__class__]).generate()
+
     # def __generate_env(self, not_exist_env_list: list[str]):
 
     #     if not not_exist_env_list:
