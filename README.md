@@ -1,6 +1,12 @@
 # python-sync-env
 easy load environment methods for python
 
+## 2023/08/16
+
+似たライブラリがあった…
+<https://pypi.org/project/myenv/>
+<https://blog.utgw.net/entry/2021/07/03/115713>
+
 # basic usage
 
 ## environment
