@@ -7,6 +7,8 @@ easy load environment methods for python
 <https://pypi.org/project/myenv/>
 <https://blog.utgw.net/entry/2021/07/03/115713>
 
+こちらのライブラリは、クラスの定義ベースで環境変数ファイルを制御する。
+
 # basic usage
 
 ## environment
