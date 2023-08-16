@@ -56,9 +56,11 @@ class GenerateEnv:
         last_enter = False
         with open(path, "r", encoding="utf-8") as f:
             text = f.read()
-            if text[-1] != "\n":
-                last_enter = True
-            envs = [l.split("=")[0] for l in text.split("\n")]
+            if len(text) == 0:
+                text = "\n"
+        if text[-1] != "\n":
+            last_enter = True
+        envs = [l.split("=")[0] for l in text.split("\n")]
 
         with open(path, "a", encoding="utf-8") as f:
             if last_enter:
